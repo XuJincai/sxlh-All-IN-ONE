@@ -13,7 +13,7 @@
 
 > **CLI** 是执行层，统一操作三个平台。**Skill** 是 Agent 的说明书，Agent 读完就知道怎么装 CLI、怎么调命令、怎么传参数。
 >
-> 挂载 Skill → Agent 学会用 CLI → 你说自然语言 → Agent 干活。
+> 挂载 Skill → Agent 学会用 CLI → 你说自然语言 → Agent 干活。**不只是采集，也能发布。**
 
 ---
 
@@ -76,6 +76,14 @@ Agent 读取 `references/douyin.md` → 执行 `aione douyin work all-comment --
 > 你：在蒲公英上找 KOL 发合作邀请
 
 Agent 读取 `references/xhs.md` → 执行 pugongying 系列命令 → 获取数据 → 发出邀请
+
+> 你：把这张图配上这段文案发到小红书
+
+Agent 读取 `references/xhs.md` → 上传图片 → 发布笔记 → 返回发布结果
+
+> 你：帮我把这条内容同时发到微博
+
+Agent 读取 `references/weibo.md` → 上传媒体 → 发布微博 → 返回结果
 
 ### Skill 结构
 
