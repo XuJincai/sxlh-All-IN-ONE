@@ -256,8 +256,6 @@ AIONE_XHS_COOKIES="<cookie>" AIONE_WEIBO_COOKIES="<cookie>" AIONE_DOUYIN_COOKIES
 
 ## 🍔 交流群
 
-## 🍔 交流群
-
 如果你对爬虫和 AI Agent 感兴趣，请加作者主页 wx 通过邀请加入群聊
 
 ps: 请加群21、22、23，人满或者过期 issue | wx 提醒
